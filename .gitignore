@@ -1,0 +1,45 @@
+# ===== 环境变量 / 密钥（绝不提交）=====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ===== 本地模型权重（体积巨大，需自行下载）=====
+backend/models/
+
+# ===== 前端 =====
+node_modules/
+dist/
+.vite/
+
+# ===== 日志 / 数据库 / 临时产物 =====
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+my_output/
+.venv*/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
